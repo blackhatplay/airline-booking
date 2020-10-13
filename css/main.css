@@ -27,25 +27,26 @@ a {
       color: #48487f;
       padding: 1rem; }
 
-#showcase {
+.showcase {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4rem; }
-  #showcase > h1 {
+  .showcase > h1 {
     font-weight: bold;
     color: #48487f;
     line-height: 1.5;
-    font-size: 2.5rem; }
-  #showcase > a {
+    font-size: 3.5rem; }
+  .showcase > a {
     margin: 1rem 0;
     padding: 0.8rem 1.5rem;
     color: #fff;
     background-color: #48487f;
     border-radius: 3px;
-    box-shadow: 0 5px 5px #ccc; }
-    #showcase > a:hover {
+    box-shadow: 0 5px 5px #ccc;
+    font-size: 1.3rem; }
+    .showcase > a:hover {
       background-color: #262663; }
 
 .showcase2 {
@@ -60,8 +61,15 @@ a {
     gap: 1rem;
     flex-wrap: wrap;
     list-style: none; }
-    .airlines-logo ul > li img {
-      width: 170px; }
+    .airlines-logo ul > li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.6rem;
+      color: #262663; }
+      .airlines-logo ul > li img {
+        width: 170px; }
 
 .services {
   margin: 5rem 1rem; }
@@ -92,7 +100,9 @@ a {
 #main-footer .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.2rem;
+  flex-wrap: wrap; }
   #main-footer .footer-wrapper > ul {
     margin: 0 2rem;
     list-style: none;
@@ -103,3 +113,9 @@ a {
         color: #777; }
     #main-footer .footer-wrapper > ul li {
       padding: 1rem; }
+
+@media (max-width: 500px) {
+  .services .services-content > ul > li {
+    width: 100%; }
+  #showcase {
+    text-align: center; } }
