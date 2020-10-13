@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+#main-nav {
+  box-shadow: 0 2px 5px #ccc; }
+  #main-nav .nav-wrapper {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #main-nav .nav-wrapper a {
+      margin: 0 1rem;
+      color: #48487f;
+      padding: 1rem; }
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem; }
+  #showcase > h1 {
+    font-weight: bold;
+    color: #48487f;
+    line-height: 1.5;
+    font-size: 2.5rem; }
+  #showcase > a {
+    margin: 1rem 0;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    background-color: #48487f;
+    border-radius: 3px;
+    box-shadow: 0 5px 5px #ccc; }
+    #showcase > a:hover {
+      background-color: #262663; }
+
+.showcase2 {
+  padding: 0 4rem 4rem 4rem !important; }
+
+.airlines-logo {
+  margin: 0 2rem; }
+  .airlines-logo ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none; }
+    .airlines-logo ul > li img {
+      width: 170px; }
+
+.services {
+  margin: 5rem 1rem; }
+  .services .services-intro {
+    text-align: center; }
+    .services .services-intro h1 {
+      font-size: 1.6rem;
+      color: #48487f; }
+  .services .services-content > ul {
+    margin: 3rem 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem; }
+    .services .services-content > ul > li {
+      width: 45%;
+      display: flex;
+      gap: 1rem;
+      align-items: center; }
+      .services .services-content > ul > li i {
+        font-size: 4rem;
+        color: #262663; }
+      .services .services-content > ul > li .list-content h2 {
+        font-size: 1.2rem;
+        color: #48487f; }
+
+#main-footer .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #main-footer .footer-wrapper > ul {
+    margin: 0 2rem;
+    list-style: none;
+    display: flex; }
+    #main-footer .footer-wrapper > ul a {
+      color: #b7bcbf; }
+      #main-footer .footer-wrapper > ul a:hover {
+        color: #777; }
+    #main-footer .footer-wrapper > ul li {
+      padding: 1rem; }
