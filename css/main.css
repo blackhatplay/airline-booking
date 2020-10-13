@@ -117,5 +117,5 @@ a {
 @media (max-width: 500px) {
   .services .services-content > ul > li {
     width: 100%; }
-  #showcase {
+  .showcase {
     text-align: center; } }
