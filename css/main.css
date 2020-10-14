@@ -96,10 +96,11 @@ a {
       width: 45%;
       display: flex;
       gap: 1rem;
-      align-items: center;
-      justify-content: center; }
+      align-items: center; }
       .services .services-content > ul > li i {
-        font-size: 4rem;
+        font-size: 5rem;
+        width: 100px;
+        text-align: center;
         color: #136188; }
       .services .services-content > ul > li .list-content h2 {
         font-size: 1.2rem;
