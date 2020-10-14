@@ -25,7 +25,12 @@ a {
     #main-nav .nav-wrapper a {
       margin: 0 1rem;
       color: #136188;
-      padding: 1rem 0.5rem; }
+      padding: 1rem 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem; }
+      #main-nav .nav-wrapper a > img {
+        width: 80px; }
       #main-nav .nav-wrapper a :hover {
         color: #0b405a; }
 
@@ -130,6 +135,8 @@ a {
       padding: 1rem; }
 
 @media (max-width: 500px) {
+  #main-nav .nav-wrapper a > h1 {
+    display: none; }
   .services .services-content > ul > li {
     width: 100%; }
   .showcase {
