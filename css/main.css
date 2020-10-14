@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .container {
   max-width: 1100px;
@@ -26,6 +26,8 @@ a {
       margin: 0 1rem;
       color: #136188;
       padding: 1rem 0.5rem; }
+      #main-nav .nav-wrapper a :hover {
+        color: #0b405a; }
 
 .showcase {
   display: flex;
@@ -47,7 +49,7 @@ a {
     box-shadow: 0 5px 5px #ccc;
     font-size: 1.3rem; }
     .showcase > a:hover {
-      background-color: #262663; }
+      background-color: #0b405a; }
 
 .showcase2 {
   padding: 0 4rem 4rem 4rem !important; }
@@ -67,7 +69,7 @@ a {
       justify-content: center;
       align-items: center;
       font-size: 0.6rem;
-      color: #262663; }
+      color: #0b405a; }
       .airlines-logo ul > li img {
         width: 200px; }
 
