@@ -25,7 +25,7 @@ a {
     #main-nav .nav-wrapper a {
       margin: 0 1rem;
       color: #48487f;
-      padding: 1rem; }
+      padding: 1rem 0.5rem; }
 
 .showcase {
   display: flex;
@@ -72,7 +72,7 @@ a {
         width: 200px; }
 
 .services {
-  margin: 5rem 1rem; }
+  margin: 4rem 1rem; }
   .services .services-intro {
     text-align: center; }
     .services .services-intro h1 {
@@ -131,4 +131,18 @@ a {
   .services .services-content > ul > li {
     width: 100%; }
   .showcase {
-    text-align: center; } }
+    text-align: center;
+    padding: 3rem; }
+    .showcase h1 {
+      line-height: 1.2;
+      font-size: 3rem; }
+  .airlines-logo > ul > li img {
+    width: 70%; }
+  #main-footer .footer-wrapper {
+    font-size: 1rem;
+    flex-direction: column; }
+    #main-footer .footer-wrapper .social-icons {
+      order: 1;
+      font-size: 1.2rem; }
+    #main-footer .footer-wrapper .footer-links {
+      order: 2; } }
