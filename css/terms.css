@@ -1,0 +1,19 @@
+.terms {
+  padding: 1rem; }
+  .terms .terms-wrapper {
+    padding: 1rem; }
+    .terms .terms-wrapper h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #136188;
+      text-shadow: 0 5px 5px #ccc; }
+    .terms .terms-wrapper .terms-content {
+      padding: 2rem 0 0 0;
+      line-height: 1.5; }
+      .terms .terms-wrapper .terms-content h2 {
+        padding-bottom: 1rem;
+        color: #0b405a; }
+      .terms .terms-wrapper .terms-content ul li {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem; }
